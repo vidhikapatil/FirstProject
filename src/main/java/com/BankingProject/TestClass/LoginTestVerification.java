@@ -45,6 +45,7 @@ public class LoginTestVerification extends BaseClass
 		 test.log(Status.FAIL,"log in failed");
 		String screenshotpath =BaseClass.captureScreen();
 		test.addScreenCaptureFromPath(screenshotpath);
+		Thread.sleep(2000);
 	   }
    }
 }
